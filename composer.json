@@ -1,0 +1,28 @@
+{
+    "name": "marcuspi\/simple-crud",
+    "description": "A very, very simple CRUD interface",
+    "homepage": "https:\/\/github.com\/marcusirgens\/SimpleCRUD",
+    "license": "WTFPL",
+    "authors": [
+        {
+            "name": "Marcus Pettersen Irgens",
+            "email": "marcus@comcamp.no",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https:\/\/github.com\/marcusirgens\/SimpleCRUD"
+        }
+    ],
+    "support": {
+        "issues": "https:\/\/github.com\/marcusirgens\/SimpleCRUD\/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "marcuspi\\SimpleCRUD\\": "simple-crud"
+        }
+    },
+    "minimum-stability": "dev"
+}
