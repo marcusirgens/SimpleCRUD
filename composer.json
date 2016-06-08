@@ -23,6 +23,5 @@
         "psr-4": {
             "marcuspi\\SimpleCRUD\\": "simple-crud"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
