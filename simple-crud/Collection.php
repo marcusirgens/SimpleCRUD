@@ -10,7 +10,7 @@ interface Collection
     
     /**
      * Creates a new document.
-     * 
+     *
      * @access public
      * @param array $data
      * @return Document
@@ -19,7 +19,7 @@ interface Collection
     
     /**
      * Finds a document in the database.
-     * 
+     *
      * @access public
      * @param Id $id The object's unique identifier
      * @return Document
@@ -28,7 +28,7 @@ interface Collection
     
     /**
      * Updates the specified document.
-     * 
+     *
      * @access public
      * @param Id $id The object's unique identifier
      * @param array $data The data to update
@@ -38,7 +38,7 @@ interface Collection
 
     /**
      * Removes the specified document.
-     * 
+     *
      * @access public
      * @param Id $id The object's unique identifier
      * @return int The number of modified objects

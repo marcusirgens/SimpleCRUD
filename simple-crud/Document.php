@@ -5,12 +5,13 @@ namespace marcuspi\SimpleCRUD;
 /**
  * A document in the database. Objects are stored in an associative array.
  */
-interface Document {
+interface Document
+{
     
     
     /**
      * Finds a document in the collection and returns it.
-     * 
+     *
      * @access public
      * @static
      * @param Collection $collection The collection to read from
@@ -21,7 +22,7 @@ interface Document {
     
     /**
      * Creates a new document in the collection and returns it.
-     * 
+     *
      * @access public
      * @static
      * @param Collection $collection The collection to insert into
@@ -32,7 +33,7 @@ interface Document {
     
     /**
      * Pulls the contents of this document from the database.
-     * 
+     *
      * @access public
      * @return void
      */
@@ -40,7 +41,7 @@ interface Document {
     
     /**
      * Stores changes made to the document.
-     * 
+     *
      * @access public
      * @return void
      */
@@ -48,7 +49,7 @@ interface Document {
     
     /**
      * Removes the document from the collection.
-     * 
+     *
      * @access public
      * @return void
      */
@@ -56,10 +57,9 @@ interface Document {
     
     /**
      * Returns the document as an array.
-     * 
+     *
      * @access public
      * @return void
      */
     public function toArray();
-    
 }
